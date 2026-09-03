@@ -1,0 +1,9 @@
+# Artificial Intelligence in Healthcare
+
+Artificial intelligence in healthcare includes machine learning methods that can support clinical decision-making, medical image analysis, patient risk prediction, and workflow automation.
+
+Machine-learning systems can learn patterns from clinical or imaging data and provide decision-support signals for diagnostic workflows. Their performance depends on data quality, validation, and the clinical setting.
+
+Healthcare AI research can be limited by dataset quality, distribution shift, bias, insufficient external validation, privacy requirements, and the difficulty of integrating models safely into clinical workflows.
+
+Clinical deployment requires careful validation and attention to the setting in which a model will be used. A model that performs well on one dataset may not generalize to a different population or workflow.
