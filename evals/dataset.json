@@ -1,0 +1,26 @@
+[
+  {
+    "id": "rag_001",
+    "input": "What is the role of artificial intelligence in healthcare?",
+    "expected_output": "The answer should explain AI's role using only evidence from the retrieved research context.",
+    "retrieval_context": [
+      "Artificial intelligence in healthcare includes machine learning methods that can support clinical decision-making, medical image analysis, patient risk prediction, and workflow automation."
+    ]
+  },
+  {
+    "id": "rag_002",
+    "input": "How can machine learning support medical diagnosis?",
+    "expected_output": "The answer should describe machine-learning support for diagnosis without introducing unsupported claims.",
+    "retrieval_context": [
+      "Machine-learning systems can learn patterns from clinical or imaging data and provide decision-support signals for diagnostic workflows. Their performance depends on data quality, validation, and the clinical setting."
+    ]
+  },
+  {
+    "id": "rag_003",
+    "input": "What are important limitations of AI in healthcare research?",
+    "expected_output": "The answer should mention limitations supported by context, such as data quality, validation, bias, and clinical deployment constraints.",
+    "retrieval_context": [
+      "Healthcare AI research can be limited by dataset quality, distribution shift, bias, insufficient external validation, privacy requirements, and the difficulty of integrating models safely into clinical workflows."
+    ]
+  }
+]
