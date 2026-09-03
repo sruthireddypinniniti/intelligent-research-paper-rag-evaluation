@@ -1,0 +1,7 @@
+google-genai
+python-dotenv
+chromadb
+sentence-transformers
+pypdf
+deepeval
+pytest
